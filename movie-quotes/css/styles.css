@@ -1,0 +1,78 @@
+body {
+
+    background-color: rgb(70, 103, 65);
+    max-width: 800px;
+    padding-left: 50px;
+    
+}
+
+header {
+    color: azure;
+
+}
+
+section.Quote1 {
+    padding-left: 30px;
+
+}
+
+section.Quote2 {
+    padding-left: 30px;
+
+}
+
+section.Quote3 {
+    padding-left: 30px;
+
+}
+
+h2 {
+    color: azure;
+
+}
+
+b {
+    color:rgb(121, 157, 128);
+
+}
+
+span.Venkman {
+    font-weight: bold;
+    color:rgb(212, 140, 140);
+
+}
+
+span.Barrett {
+    font-weight: bold;
+    color: rgb(160, 199, 220);
+
+}
+
+span.Mayor {
+    font-weight: bold;
+    color:rgb(148, 214, 127);
+
+}
+
+span.Stantz {
+    font-weight: bold;
+    color:rgb(197, 166, 226);
+
+}
+
+span.Spengler {
+    font-weight: bold;
+    color: rgb(235, 155, 126);
+
+}
+
+span.Zeddemore {
+    font-weight: bold;
+    color:rgb(219, 221, 131);
+
+}
+
+span.Action {
+    font-weight: bold;
+    color: aliceblue;
+}
