@@ -1,0 +1,49 @@
+html{
+    font-family: 'Crimson Text', serif;
+    
+}
+
+body {
+    font-size:20px;
+
+}
+
+span.bold {
+    font-weight:bold
+}
+
+span.first {
+    font-style:italic
+}
+
+span.fourth {
+    letter-spacing:-0.08em;
+}
+
+span.sixth {
+    letter-spacing:0.4em;
+}
+
+span.seventh {
+    text-transform:capitalize
+}
+
+span.eighth {
+    text-transform:lowercase
+}
+
+span.ninth {
+    text-transform:uppercase
+}
+
+span.tenth {
+    text-decoration:line-through
+}
+
+span.eleven {
+    text-decoration:overline
+}
+
+span.twelve {
+    text-decoration:underline;
+}
