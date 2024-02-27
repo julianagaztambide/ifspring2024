@@ -1,0 +1,117 @@
+body {
+    font-family: "Archivo Narrow", sans-serif;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 0;
+    margin-bottom: 10px;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.column_container {
+    margin: auto;
+    width: 960px;
+}
+
+header {
+    background-image: url("../images/background.jpg");
+    background-size: cover
+    
+}
+
+header .column_container {
+    padding: 166px 0;
+    text-align: center;
+    padding-bottom: 184px;
+}
+
+h3 {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 32px;
+    color: rgb(0, 0, 0);
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.4;
+    margin: 0px;
+    margin-bottom: 16px;
+}
+
+img {
+    float: right;
+    width: 400px;
+    height: 300px;
+    margin-left: 42px;
+    margin-bottom: 30px;
+    border: solid 2px;
+    border-color: rgb(0, 0, 0);
+}
+
+h4 { 
+    font-size: 20px;
+    margin: 0px;
+    padding: 5px;
+}
+
+.grid {    
+    display: grid;
+    grid-template-columns: 450px 450px;
+    grid-template-rows: 175px 175px;
+    justify-items: start;
+    column-gap: 31px;
+}
+
+.grid img {
+    margin: 0 7px 10px 0;
+    float: left;
+    width: 200px;
+    height: 150px;
+}
+
+.centered {
+    text-align: center;
+    font-size: 26px;
+    padding: 0px 120px;
+    line-height: 1.4;
+}
+
+.section_1 {
+    padding-bottom: 42px
+}
+
+.section_1 {
+    background-color: rgb(161, 205, 177);
+}
+
+.section_2 {
+    padding-bottom: 49px;
+    background-color: rgb(236, 217, 173);
+}
+
+.section_3 {
+    padding-bottom: 70px
+}
+
+.section_3 {
+    background-color: rgb(161, 205, 177);
+}
+
+footer {
+    padding: 22px 0;
+    background-color: rgb(209, 133, 133);
+}
+footer p {
+    font-size: 18px;
+    margin-top: 31px;
+    color: rgb(0, 0, 0);
+}
