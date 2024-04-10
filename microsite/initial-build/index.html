@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="css/styles.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/lcr2uzn.css">
+    <link href="css/styles.css" rel="stylesheet">
 </head>
 
 <header>
@@ -15,7 +15,7 @@
 
 <body>
     <div class="tab">
-        <button class="tablinks" onclick="openCity(event, 'FirstTab')">Lucien Lévy-Dhurmer</button>
+        <button class="tablinks" onclick="openCity(event, 'FirstTab')"id="defaultOpen">Lucien Lévy-Dhurmer</button>
         <button class="tablinks" onclick="openCity(event, 'SecondTab')">About The Artist</button>
         <button class="tablinks" onclick="openCity(event, 'ThirdTab')">Creative Portraiture</button>
         <button class="tablinks" onclick="openCity(event, 'FourthTab')">Figurative Landscape</button>
@@ -125,6 +125,8 @@
 </body>
 
 <script>
+    // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
     function openCity(evt, cityName) {
       var i, tabcontent, tablinks;
       tabcontent = document.getElementsByClassName("tabcontent");
