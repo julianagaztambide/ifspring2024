@@ -6,7 +6,7 @@ h1 {
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
-    
+    background-color: rgb(202, 202, 202);
 }
 
 
@@ -70,8 +70,8 @@ h3 {
 #SecondTab {background-color: rgb(180, 168, 152);}
 #ThirdTab {background-color: rgb(190, 179, 159);}
 #FourthTab {background-color: rgb(205, 203, 186);}
-#FifthTab {background-color: rgb(226, 221, 198);}
-#SixthTab {background-color: rgb(237, 233, 218);}
+#FifthTab {background-color: rgb(202, 190, 170);}
+#SixthTab {background-color: rgb(212, 205, 179);}
 
 
 
@@ -103,6 +103,8 @@ img {vertical-align: middle;}
   user-select: none;
 }
 
+
+
 /* Position the "next button" to the right */
 .next {
   right: 0;
@@ -113,6 +115,29 @@ img {vertical-align: middle;}
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
+
+.intro img {
+  width: 1300px;
+  height: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+            .container-about {
+              width: 80%; /* Adjust the width as needed */
+              margin: auto; /* Center the container */
+              padding: 0 20px; /* Add padding to the sides */
+            }
+
+            .container-about img {
+              width: 100%; /* Make sure the image takes up the full width */
+              max-width: 400px; /* Limit the maximum width of the image */
+              float: left; /* Float the image to the left */
+              margin-right: 20px; /* Add margin to create space between image and text */
+            }
+
 
             .container1 {
               display: flex;
@@ -176,7 +201,7 @@ img {vertical-align: middle;}
             .box3 {
               width: 500px;
               height: 150px;
-              background-color: rgb(226, 221, 198);
+              background-color: rgb(202, 190, 170);
               position: absolute; /* Position the box relative to the container */
               top: 50%; /* Position the box 50% from the top of the container */
               left: 50%; /* Position the box 50% from the left of the container */
@@ -201,7 +226,7 @@ img {vertical-align: middle;}
             .box4 {
               width: 500px;
               height: 150px;
-              background-color: rgb(237, 233, 218);
+              background-color: rgb(212, 205, 179);
               position: absolute; /* Position the box relative to the container */
               top: 50%; /* Position the box 50% from the top of the container */
               left: 50%; /* Position the box 50% from the left of the container */

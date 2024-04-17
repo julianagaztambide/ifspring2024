@@ -11,6 +11,7 @@
 
 <header>
     <h1>Lucien Lévy-Dhurmer</h1>
+    <src img="images/background.jpg">
 
 </header>
 
@@ -21,12 +22,13 @@
     <button class="tablink" onclick="openPage('SecondTab', this, 'rgb(180, 168, 152)')">About The Artist</button>
     <button class="tablink" onclick="openPage('ThirdTab', this, 'rgb(190, 179, 159)')">Creative Portraiture</button>
     <button class="tablink" onclick="openPage('FourthTab', this, 'rgb(205, 203, 186)')">Figurative Landscape</button>
-    <button class="tablink" onclick="openPage('FifthTab', this, 'rgb(226, 221, 198)')">Landscapes and Cityscapes</button>
-    <button class="tablink" onclick="openPage('SixthTab', this, 'rgb(237, 233, 218)')">Interior Scenes</button>
+    <button class="tablink" onclick="openPage('FifthTab', this, 'rgb(202, 190, 170)')">Landscapes and Cityscapes</button>
+    <button class="tablink" onclick="openPage('SixthTab', this, 'rgb(212, 205, 179)')">Interior Scenes</button>
 
         <div id="FirstTab" class="tabcontent">
-            <h3>Lucien Lévy-Dhurmer</h3>
-                <p>This home page will focus on aesthetics and serve as an introduction to what the page is about / who it is about</p>
+                <div class="intro">
+                    <img src="images/intro.png">
+                </div>
          </div>
       
 
@@ -37,25 +39,24 @@
 
 
 
-
-
-      <div id="SecondTab" class="tabcontent">
-        <h3>About The Artist</h3>
-            <p>Born Lucien Lévy to a Jewish family in Algiers, French Algeria in 1865, he began studying drawing and sculpture in Paris at the Ecole Supérieure de Dessin et de Sculpture in 1879. He first exhibited at the Paris Salon of 1882 where he showed a small ceramic plaque. In 1887 Lévy began making his living near Cannes in southern France, overseeing the decoration of ceramics. From 1886 to 1895 he worked as a ceramic decorator and then as artistic director of the studio of Clément Massier. Around 1892 he signed his first pieces of ceramics, which were influenced by Islamic Art. In 1895 he left for Paris to begin a career in painting; around this time he visited Italy and was further influenced by art of the Renaissance.
-        </p>    
+         <div id="SecondTab" class="tabcontent">
+            <h3>About The Artist</h3>
+            <div class="container-about">
+                <img src="images/self.jpg">
+             
+                    <p>Born Lucien Lévy to a Jewish family in Algiers, French Algeria in 1865, he began studying drawing and sculpture in Paris at the Ecole Supérieure de Dessin et de Sculpture in 1879. He first exhibited at the Paris Salon of 1882 where he showed a small ceramic plaque. In 1887 Lévy began making his living near Cannes in southern France, overseeing the decoration of ceramics. From 1886 to 1895 he worked as a ceramic decorator and then as artistic director of the studio of Clément Massier. Around 1892 he signed his first pieces of ceramics, which were influenced by Islamic Art. In 1895 he left for Paris to begin a career in painting; around this time he visited Italy and was further influenced by art of the Renaissance.</p>    
+                    
+                    <p>In 1896 he exhibited his first pastels and paintings under the name Lucien Lévy-Dhurmer; he had added the last two syllables of his mother's maiden name (Goldhurmer), likely to differentiate himself from other people named Lévy. His paintings soon became popular with the public and among fellow artists as well. He earned high praise for the academic attention to detail with which he captured figures lost in a Pre-Raphaelite haze of melancholy, contrasted with bright Impressionist colouration. His portrait of writer Georges Rodenbach is perhaps the most striking example of this strange and extraordinary synergy.</p>    
+                        
+                    <p>After 1901 Lévy-Dhurmer moved away from expressly Symbolist content, incorporating more landscapes into his work because of his travels in Europe and North Africa. He continued to draw inspiration from music and attempted to capture works of great composers such as Beethoven in painted form.</p>    
+                    
+                    <p>Lévy-Dhurmer ultimately ended up passing away in Le Vésinet in 1953, at the age of 97.</p>
+                </div>
+            </div>
+        </div>
         
-            <p> In 1896 he exhibited his first pastels and paintings under the name Lucien Lévy-Dhurmer; he had added the last two syllables of his mother's maiden name (Goldhurmer), likely to differentiate himself from other people named Lévy. His paintings soon became popular with the public and among fellow artists as well. He earned high praise for the academic attention to detail with which he captured figures lost in a Pre-Raphaelite haze of melancholy, contrasted with bright Impressionist colouration. His portrait of writer Georges Rodenbach is perhaps the most striking example of this strange and extraordinary synergy.
-        </p>    
-            
-            <p>After 1901 Lévy-Dhurmer moved away from expressly Symbolist content, incorporating more landscapes into his work because of his travels in Europe and North Africa. He continued to draw inspiration from music and attempted to capture works of great composers such as Beethoven in painted form.
-        </p>    
-           
-            <p>Lévy-Dhurmer ultimately ended up passing away in Le Vésinet in 1953, at the age of 97.
-        </p>
 
-      </div>
-      
-
+     
 
 
 
@@ -66,7 +67,7 @@
         <h3>Creative Portraiture</h3>
             <div class="slideshow-container">
 
-                <div class="mySlides fade">
+                <div class="mySlides fade" style="display: block;">
                     <div class="numbertext">1 / 4
                     </div>
                         <img src="images/creative1.png" style="width: 100%">
@@ -135,7 +136,7 @@
         <h3>Figurative Landscape</h3>
             <div class="slideshow-container">
 
-                <div class="mySlides fade">
+                <div class="mySlides fade" style="display: block;">
                     <div class="numbertext">1 / 3
                     </div>
                         <img src="images/figurative1.png" style="width: 100%">
@@ -193,7 +194,7 @@
         <h3>Landscape and Cityscapes</h3>
             <div class="slideshow-container">
 
-                <div class="mySlides fade">
+                <div class="mySlides fade" style="display: block;">
                     <div class="numbertext">1 / 4
                     </div>
                         <img src="images/land1.png" style="width: 100%">
@@ -219,7 +220,7 @@
                         </div>
                 </div>
 
-                <div class="mySlides fade">
+                <div class="mySlides fade" style="display: block;">
                     <div class="numbertext">3 / 4
                     </div>
                         <img src="images/land3.png" style="width:100%">
@@ -267,7 +268,7 @@
         <h3>Interior Scenes</h3>
             <div class="slideshow-container">
 
-                <div class="mySlides fade">
+                <div class="mySlides fade" style="display: block;">
                     <div class="numbertext">1 / 3
                     </div>
                         <img src="images/interior1.png" style="width: 100%">
